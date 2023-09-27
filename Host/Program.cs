@@ -23,6 +23,7 @@ namespace Host
                 Console.WriteLine($"A szerver elindult: {DateTime.Now}");
                 Console.ReadKey();
                 host.Close();
+
             }
         }
     }
